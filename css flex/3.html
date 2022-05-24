@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Masai News</title>
+    <style>
+        h1 {
+            text-align: center;
+            margin-top: 50px;
+            /* background-color: antiquewhite; */
+        }
+
+        #maindiv {
+            margin: auto;
+            width: 100%;
+            height: auto;
+            /* border: 1px solid red; */
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            /* background-color: antiquewhite; */
+        }
+
+        #maindiv>div {
+            width: 28%;
+            height: 100%;
+            /* border: 1px solid green; */
+            padding: 0px 10px;
+            text-align: start;
+            background-color: white;
+            border-radius: 20px;
+            box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
+        }
+
+        #maindiv>div>img {
+            width: 100%;
+            border-radius: 10px 10px 0px 0px;
+        }
+        body>div{
+            background-color: #f2f6ff;
+            /* padding-top: 25px; */
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 70%;
+            margin: auto;
+            /* border: 1px solid red; */
+        }
+        button{
+            margin-top: 25px;
+            margin-bottom: 25px;
+            color: red;
+            border: 1px solid red;
+            padding: 5px 10px;
+            border-radius: 5px;
+            background-color: aliceblue;
+        
+        }
+        div>img+p{
+            color: rgb(119, 119, 220);
+            padding: 0px 10px;
+        }
+        img+p+p{
+            font-weight: bold;
+            padding: 0px 10px;
+
+        }
+        img+p+p+p{
+            font-weight: lighter;
+            padding: 0px 10px;
+        }
+        .main>div{
+            width: 28%;
+            height: auto;
+            /* border: 1px solid rgb(20, 13, 232); */
+        }
+        .main{
+            background-color: white;
+            display: flex;
+            /* border: 1px solid rgb(16, 10, 10); */
+            flex-direction: row;
+            justify-content: space-around;
+            margin-bottom: 100px;
+            
+        }
+        .main img{
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="aa">
+
+        <h1>Masai in the News</h1>
+        <div id="maindiv">
+            <div>
+                <img src="https://masai-website-images.s3.ap-south-1.amazonaws.com/ET_3754cc10ec.png" alt="">
+                <p>21 Dec 2021</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa in, est quam nesciunt magnam eius.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, dignissimos.</p>
+            </div>
+            <div><img src="https://masai-website-images.s3.ap-south-1.amazonaws.com/money_Control_c3e25f5ceb.png" alt="">
+                <p>21 Dec 2021</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa in, est quam nesciunt magnam eius.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, dignissimos.</p>
+            </div>
+            <div><img src="https://masai-website-images.s3.ap-south-1.amazonaws.com/vccircle_6ef779c958.png" alt="">
+                <p>21 Dec 2021</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa in, est quam nesciunt magnam eius.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, dignissimos.</p>
+            </div>
+            
+        </div>
+        <button>See More ></button>
+    </div>
+    <h1>Our investors, Who believe in Us</h1>
+    <div class="main">
+        <div>
+            <img src="https://www.masaischool.com/img/our-investors/unitus.svg" alt="">
+        </div>
+        <div>
+            <img src="https://www.masaischool.com/img/our-investors/omidyar.svg" alt="">
+
+        </div>
+        <div>
+            <img src="https://www.masaischool.com/img/our-investors/indiaQuotient.svg" alt="">
+
+        </div>
+    </div>
+</body>
+
+</html>

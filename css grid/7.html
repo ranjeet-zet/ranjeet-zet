@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grid</title>
+    <style>
+        .con{
+            width: 60%;
+            height: 350px;
+            margin: auto;
+            /* border: 1px solid;s */
+            padding-top: 10px;
+            /* justify-content: space-between; */
+            /* align-items: center; */
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            grid-template-rows: repeat(3,100px);
+
+            gap: 12px;
+            grid-template-areas: 
+            "A A B B"
+            "C D D D"
+            "E E E E" ;
+        }
+        .con>div{
+            border: 1px solid transparent;
+            border-radius: 10px;
+            color: white;
+            display: flex;
+            align-items: center;
+            /* justify-content: center; */
+            font-weight: bolder;
+            font-size: 50px;
+            padding-left: 30px;
+            
+        }
+        .con>:nth-child(1){
+            background-color: rgb(73, 71, 71);
+            grid-area: A;
+        }
+        .con>:nth-child(2){
+            background-color: rgb(73, 71, 71);
+            grid-area: B;
+        }
+        .con>:nth-child(3){
+            background-color: rgb(73, 71, 71);
+            grid-area: C;
+        }
+        .con>:nth-child(4){
+            background-color: rgb(73, 71, 71);
+            grid-area: D;
+        }
+        .con>:nth-child(5){
+            background-color: rgb(73, 71, 71);
+            grid-area: E;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="con">
+        <div>A</div>
+        <div>B</div>
+        <div>C</div>
+        <div>D</div>
+        <DIV>E</DIV>
+    </div>
+</body>
+</html>

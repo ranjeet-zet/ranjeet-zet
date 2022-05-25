@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid</title>
+    <style>
+        .main{
+            width: 80%;
+            height: 300px;
+            /* border: 1px solid; */
+            margin: auto;
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+            grid-template-rows: repeat(9,1fr);
+            gap: 10px;
+            grid-template-areas: 
+            "one one two five"
+            "one one two five"
+            "one one two five"
+            "one one two five"
+            "three four two five"
+            "three four two five"
+            "three four two five"
+            "three four two five"
+            "six six six five"
+            ;
+
+
+        }
+        .main>div{
+            /* background-color: rgb(56, 59, 59); */
+            color: white;
+            display: flex;
+            /* align-items: center; */
+            border-radius: 15px;
+            font-size: 35px;
+            color: black;
+            padding-left: 35px;
+            padding-top: 40px;
+        }
+        .main>div:nth-child(1){
+            background-color: coral;
+            grid-area: one;
+        }
+        .main>div:nth-child(2){
+            background-color: coral;
+            grid-area: two;
+        }
+        .main>div:nth-child(3){
+            background-color: coral;
+            grid-area: three;
+        }
+        .main>div:nth-child(4){
+            background-color: coral;
+            grid-area: four;
+        }
+        .main>div:nth-child(5){
+            background-color: coral;
+            grid-area: five;
+        }
+        .main>div:nth-child(6){
+            background-color: transparent;
+            grid-area: six;
+        }
+        
+
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div>A</div>
+        <div>B</div>
+        <div>C</div>
+        <div>D</div>
+        <div>E</div>
+        <div> </div>
+    </div>
+    
+</body>
+</html>

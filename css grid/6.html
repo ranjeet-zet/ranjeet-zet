@@ -16,7 +16,7 @@
             height: 450px;
             border: 1px solid transparent;
             box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-
+            padding: 35px;
             margin: auto;
         
             
@@ -30,27 +30,62 @@
             box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
             border-radius: 15px;
         }
+        .dis:hover{
+            background-color: rgb(195, 199, 204);
+        }
         .key{
             width: 90%;
             height: 75%;
             border: 1px solid green transparent;
-            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
             border-radius: 10px;
             margin: auto;
             margin-top: 15px;
             display: grid;
             grid-template-columns: repeat(4,1fr);
             grid-template-rows: repeat(4,75px);
-            gap: 20px;
-            padding: 15px;
+            gap: 10px;
 
 
         }
         .key>div{
-            color: rgb(0, 0, 0);
-            background-color: bisque;
+            /* color: rgb(0, 0, 0); */
+            /* background-color: bisque; */
             border-radius: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-weight: bold;
+            font-size: 25px;
         }
+        .bla{
+            background-color: black;
+            color: white;
+        }
+        .bla:hover{
+            background-color: rgba(43, 6, 6, 0.634);
+        }
+        .whi{
+            color: black;
+            /* background-color: antiquewhite; */
+            box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
+            
+        }
+        .whi:hover{
+            background-color: blanchedalmond;
+        }
+        .red{
+            color: white;
+            background-color: rgb(255, 0, 0);
+            
+        }
+        .red:hover{
+            background-color: yellow;
+            color: black;
+        }
+
+
+      
     </style>
 </head>
 <body>
@@ -58,22 +93,22 @@
     <div class="main">
         <div class="dis"></div>
         <div class="key">
-            <div>1</div>
-            <div>2</div>
-            <div>3</div>
-            <div>+</div>
-            <div>4</div>
-            <div>5</div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
+            <div class="whi">1</div>
+            <div class="whi">2</div>
+            <div class="whi">3</div>
+            <div class="bla">+</div>
+            <div class="whi">4</div>
+            <div class="whi">5</div>
+            <div class="whi">6</div>
+            <div class="bla">-</div>
+            <div class="whi">7</div>
+            <div class="whi">8</div>
+            <div class="whi">9</div>
+            <div class="bla">*</div>
+            <div class="red">c</div>
+            <div class="whi">0</div>
+            <div class="bla">=</div>
+            <div class="bla">/</div>
         </div>
     </div>
 </body>

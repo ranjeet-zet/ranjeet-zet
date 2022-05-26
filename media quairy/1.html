@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Box</title>
+    <style>
+        *{
+            background-color: rgb(255, 255, 255);
+        }
+        h1{
+            background-color: yellow;
+            width: 100%;
+            padding: 20px;
+        }
+        .main{
+            width: 100%;
+            /* height: 100px; */
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+            grid-template-rows: 250px;
+            gap: 20px;
+        }
+
+        @media all and (min-width : 480px ) and (max-width : 720px ) {
+        
+            .main{
+                grid-template-columns: repeat(2,1fr);
+                grid-template-rows: repeat(2,250px);
+
+            }
+            .main>div:nth-child(1){
+            background-color: red;
+            order: 1;
+        }
+        .main>div:nth-child(2){
+            background-color: green;
+            order: 3;
+        }
+        .main>div:nth-child(3){
+            background-color: blue;
+            order: 2;
+        }
+        .main>div:nth-child(4){
+            background-color: gray;
+            order: 4;
+        }
+        }
+        @media all and (min-width : 320px ) and (max-width : 479px ) {
+        
+        .main{
+            grid-template-columns: repeat(1,1fr);
+            grid-template-rows: repeat(4,250px);
+
+        }
+        .main>div:nth-child(1){
+        background-color: red;
+        order: 1;
+    }
+    .main>div:nth-child(2){
+        background-color: green;
+        order: 3;
+    }
+    .main>div:nth-child(3){
+        background-color: blue;
+        order: 10;
+    }
+    .main>div:nth-child(4){
+        background-color: gray;
+        order: 2;
+    }
+    }
+
+
+        .main>div{
+            background-color: green;
+            font-size: 25px;
+            padding: 25px;
+        }
+        .main>div:nth-child(1){
+            background-color: red;
+            /* order: 1; */
+        }
+        .main>div:nth-child(2){
+            background-color: green;
+            /* order: 3; */
+        }
+        .main>div:nth-child(3){
+            background-color: blue;
+            /* order: 2; */
+        }
+        .main>div:nth-child(4){
+            background-color: gray;
+            /* order: 4; */
+        }
+
+
+    </style>
+</head>
+<body>
+    <h1>Navigation</h1>
+    <div class="main">
+        <div>Box1</div>
+        <div>Box2</div>
+        <div>Box3</div>
+        <div>Box4</div>
+    </div>
+</body>
+</html>

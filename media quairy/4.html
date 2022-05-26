@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>media</title>
+    <style>
+        p{
+            background-color: yellow;
+            padding: 25px;
+            font-size: 35px;
+            font-weight: bold;
+        }
+
+        .main{
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            grid-template-rows: repeat(3,140px);
+            gap: 10px;
+            grid-template-areas: 
+            "left left box"
+            "left left boxx"
+            "left left boxxx";
+
+        }
+        @media all and (min-width:480px) and (max-width:720px){
+            .main{
+                grid-template-areas:
+            "left left left"
+            "left left left"
+            "box boxx boxxx" ;
+        }
+        }
+        @media all and (min-width:320px) and (max-width:479px){
+            .main{
+           grid-template-columns: repeat(1,1fr);
+           grid-template-rows: repeat(5,100px);
+           grid-template-areas: 
+           "left"
+           "left"
+           "box"
+           "boxx"
+           "boxxx";
+
+
+        }
+
+
+        }
+
+
+        .main>div{
+            font-size: 35px;
+            /* padding: 20px; */
+        }
+        .main>div:nth-child(1){
+            background-color: red;
+            grid-area: left;
+        }
+        .main>div:nth-child(2){
+            background-color: green;
+            grid-area: box;
+        }
+        .main>div:nth-child(3){
+            background-color: green;
+            grid-area: boxx;
+        }
+        .main>div:nth-child(4){
+            background-color: green;
+            grid-area: boxxx;
+        }
+
+    </style>
+</head>
+<body>
+    <p>Navigation</p>
+    <div class="main">
+        <div>Left div</div>
+        <div>Rigth 1</div>
+        <div>Right 2</div>
+        <div>Right 3</div>
+    </div>
+</body>
+</html>

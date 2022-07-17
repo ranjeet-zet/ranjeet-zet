@@ -1,0 +1,108 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin</title>
+    <style>
+        #maindiv {
+            width: 90%;
+            height: auto;
+            margin: auto;
+            /* background-color: #f2f2f2; */
+            display: grid;
+            gap: 25px;
+            grid-template-columns: 1fr 1fr 1fr;
+            /* border: 1px solid red; */
+        }
+
+        #maindiv>div {
+            /* border: 1px solid red; */
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            height: auto;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        #nav {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+            /* background-color: #f2f2f2; */
+            height: 50px;
+            width: 100%;
+            border-radius: 12px;
+            border: 1px solid;
+            margin-bottom: 25px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="nav">
+        <a href="./index.html">Home</a>
+        <a href="./Admin.html">Admin</a>
+    </div>
+
+    <div>
+        <h1>Admin</h1>
+        <div id="maindiv">
+            <div>
+                <h2>Add New Product</h2>
+
+                <label for="name">Name:</label>
+                <input type="text" name="name" id="adname">
+                <br>
+
+                <label for="price">Price:</label>
+                <input type="text" name="price" id="adprice">
+                <br>
+
+                <label for="Image">Image URL</label>
+                <input id="adimage" type="text">
+                <br>
+                <label for="description">Description:</label>
+                <textarea name="description" id="adescription" cols="30" rows="3"></textarea>
+                <button id="abutton">Add Product</button>
+
+            </div>
+            <div>
+                <h2>Update Product</h2>
+
+                <label for="name">Name:</label>
+                <input type="text" name="name" id="udname">
+                <br>
+
+                <label for="price">Price:</label>
+                <input type="text" name="price" id="udprice">
+                <br>
+
+                <label for="Image">Image URL</label>
+                <input id="udimage" type="text">
+                <br>
+                <label for="description">Description:</label>
+                <textarea name="description" id="udescription" cols="30" rows="3"></textarea>
+                <button id="ubutton">Add Product</button>
+
+
+            </div>
+            <div>
+                <h2>Delete Product</h2>
+
+                <label for="name">ID:</label>
+                <input type="text" name="name" id="did">
+                <button id="dbutton">Delete Product</button>
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
+<script src="../backend/admin.js"></script>

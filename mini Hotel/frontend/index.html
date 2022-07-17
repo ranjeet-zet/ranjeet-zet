@@ -1,0 +1,84 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <style>
+        body {
+            background-color: #f5f5f5;
+        }
+
+        #navbar {
+            width: 90%;
+            margin: auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border: 1px solid;
+            border-radius: 12px;
+            padding: 18px;
+        }
+
+        input {
+            width: auto;
+            padding: 6px;
+            border: 1px solid;
+            border-radius: 5px;
+        }
+
+        button {
+            width: auto;
+            padding: 6px;
+            border: 1px solid;
+            border-radius: 5px;
+        }
+
+        a {
+            text-decoration: none;
+            color: black;
+        }
+
+        #append {
+            width: 90%;
+            margin: auto;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            /* border: 1px solid; */
+            border-radius: 12px;
+            padding: 18px;
+        }
+
+        img {
+            width: 100%;
+        }
+
+        .btn-primary {
+            background-color: #2e1818;
+            border-color: #716d6d;
+            color: #f5f5f5;
+            padding: 2px 5px;
+            border-radius: 5px;
+
+        }
+    </style>
+
+</head>
+
+<body>
+    <div id="navbar">
+        <a href="./index.html">Home</a>
+        <div>
+            <input id="adname" placeholder="FoodName..." type="text">
+            <button id="sb">Search</button>
+        </div>
+        <a href="../frontend/Admin.html">Admin Page</a>
+    </div>
+    <div id="append">
+
+    </div>
+</body>
+
+</html>
+<script src="../backend/index.js"></script>

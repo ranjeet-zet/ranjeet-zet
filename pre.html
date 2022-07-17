@@ -1,0 +1,2123 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Periodic Table</title>
+    <style>
+        *:hover{
+            background-color: aqua;
+        }
+        #table{
+            width:85%;
+            margin:auto;
+            border-collapse: separate;
+
+        }
+        #table1{
+            width: 70%;
+            margin: auto;
+            border-collapse: separate;
+            margin-top: 20px;
+        }
+        #table2{
+            width: 65%;
+            margin: auto;
+            border-collapse: separate;
+            margin-top: 20px;
+        }
+        .row{
+            width:100%;
+            margin: auto;
+           
+        }
+        .column{
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            margin:auto;
+            width: 50px;
+            height: 50px;
+            font-weight: bold;
+            margin-bottom: 10px;
+            text-align: center;
+            vertical-align: middle;
+            background-color: rgb(102, 102, 220);
+        }
+
+          /* sub Shell Style */
+        .Shell {
+            margin: auto;
+            
+        }
+        .atomicNumber .subShell {
+                padding: 0px;
+                text-align: left;
+                font-size: 8px;
+         }
+         .element .subShell {
+            text-align: center;
+            padding: 0px;
+            font-size: 8px;
+        }
+        .atomicWeight .subShell {
+         text-align: center;
+         padding: 0px;
+         font-size: 8px;
+        }
+        .alkali {
+            background-color: rgb(229, 122, 98);
+        }
+        .alkaline{
+            background-color: rgb(248, 206, 40);
+        }
+        .transition{
+            background-color: rgb(221, 206, 92);
+        }
+        .basic{
+            background-color: rgb(140, 234, 112);
+        }
+        .semimetal{
+            background-color: rgb(114, 222, 230);
+        }
+        .nonmetal{
+            background-color: rgb(57, 159, 222);
+        }
+        .halogen{
+            background-color: rgb(109, 126, 185);
+        }
+        .noblegas{
+            background-color: rgb(147, 92, 205);
+        }
+        .lanthanide{
+            background-color: rgb(191, 52, 219);
+        }
+        .actinide{
+            background-color: rgb(239, 29, 36);
+        }
+        
+    </style>
+</head>
+<body>
+    
+           <table id="table">
+               <tbody>
+                <!-- This is 1st Row  -->
+               <tr class="row">
+                   <td class="column nonmetal">
+                         <table class="Shell">
+                             <tr class="atomicNumber">
+                                 <td class="subShell" >1</td>
+                             </tr>
+                             <tr class="symbol">
+                                 <td class="subShell">H</td>
+                             </tr>
+                             <tr class="element">
+                                 <td class="subShell">Hydrogen</td>
+                             </tr>
+                             <tr class="atomicWeight">
+                                 <td class="subShell">1.008</td>
+                             </tr>
+                         </table>
+                    </td>
+                   <td></td>
+                   <td></td>
+                   <td></td>
+                   <td></td>
+                   <td></td>
+                   <td></td>
+                   <td></td>
+                   <td></td>
+                   <td></td>
+                   <td></td>
+                   <td></td>
+                   <td></td>
+                   <td></td>
+                   <td></td>
+                   <td></td>
+                   <td></td>
+                   <td class="column noblegas">
+                        <table class="Shell">
+                            <tr class="atomicNumber">
+                                <td class="subShell" >2</td>
+                            </tr>
+                            <tr class="symbol">
+                                <td class="subShell">He</td>
+                            </tr>
+                            <tr class="element">
+                                <td class="subShell">Helium</td>
+                            </tr>
+                            <tr class="atomicWeight">
+                                <td class="subShell">4.003</td>
+                            </tr>
+                        </table>
+                   </td>
+               </tr>
+               <!-- This is 2nd Row -->
+               <tr class="row">
+                   <td class="column alkali">
+                    <table class="Shell">
+                        <tr class="atomicNumber">
+                            <td class="subShell" >3</td>
+                        </tr>
+                        <tr class="symbol">
+                            <td class="subShell">Li</td>
+                        </tr>
+                        <tr class="element">
+                            <td class="subShell">Lithium</td>
+                        </tr>
+                        <tr class="atomicWeight">
+                            <td class="subShell">6.941</td>
+                        </tr>
+                    </table>
+                   </td>
+                   <td class="column alkaline">
+                    <table class="Shell">
+                        <tr class="atomicNumber">
+                            <td class="subShell" >4</td>
+                        </tr>
+                        <tr class="symbol">
+                            <td class="subShell">Be</td>
+                        </tr>
+                        <tr class="element">
+                            <td class="subShell">Beryllium</td>
+                        </tr>
+                        <tr class="atomicWeight">
+                            <td class="subShell">9.012</td>
+                        </tr>
+                    </table>
+                   </td>
+                   <td></td>
+                   <td></td>
+                   <td></td>
+                   <td></td>
+                   <td></td>
+                   <td></td>
+                   <td></td>
+                   <td></td>
+                   <td></td>
+                   <td></td>
+                   <td class="column semimetal">
+                    <table class="Shell">
+                        <tr class="atomicNumber">
+                            <td class="subShell" >5</td>
+                        </tr>
+                        <tr class="symbol">
+                            <td class="subShell">B</td>
+                        </tr>
+                        <tr class="element">
+                            <td class="subShell">Boron</td>
+                        </tr>
+                        <tr class="atomicWeight">
+                            <td class="subShell">10.811</td>
+                        </tr>
+                    </table>
+                   </td>
+                   <td class="column nonmetal">
+                    <table class="Shell">
+                        <tr class="atomicNumber">
+                            <td class="subShell" >6</td>
+                        </tr>
+                        <tr class="symbol">
+                            <td class="subShell">C</td>
+                        </tr>
+                        <tr class="element">
+                            <td class="subShell">Carbon</td>
+                        </tr>
+                        <tr class="atomicWeight">
+                            <td class="subShell">12.011</td>
+                        </tr>
+                    </table>
+                   </td>
+                   <td class="column nonmetal">
+                    <table class="Shell">
+                        <tr class="atomicNumber">
+                            <td class="subShell" >7</td>
+                        </tr>
+                        <tr class="symbol">
+                            <td class="subShell">N</td>
+                        </tr>
+                        <tr class="element">
+                            <td class="subShell">Nitrogen</td>
+                        </tr>
+                        <tr class="atomicWeight">
+                            <td class="subShell">14.007</td>
+                        </tr>
+                    </table>
+                   </td>
+                   <td class="column nonmetal">
+                    <table class="Shell">
+                        <tr class="atomicNumber">
+                            <td class="subShell" >8</td>
+                        </tr>
+                        <tr class="symbol">
+                            <td class="subShell">O</td>
+                        </tr>
+                        <tr class="element">
+                            <td class="subShell">Oxygen</td>
+                        </tr>
+                        <tr class="atomicWeight">
+                            <td class="subShell">15.999</td>
+                        </tr>
+                    </table>
+                   </td>
+                   <td class="column halogen">
+                    <table class="Shell">
+                        <tr class="atomicNumber">
+                            <td class="subShell" >9</td>
+                        </tr>
+                        <tr class="symbol">
+                            <td class="subShell">F</td>
+                        </tr>
+                        <tr class="element">
+                            <td class="subShell">Fluorine</td>
+                        </tr>
+                        <tr class="atomicWeight">
+                            <td class="subShell">18.998</td>
+                        </tr>
+                    </table>
+                   </td>
+                   <td class="column noblegas">
+                    <table class="Shell">
+                        <tr class="atomicNumber">
+                            <td class="subShell" >10</td>
+                        </tr>
+                        <tr class="symbol">
+                            <td class="subShell">Ne</td>
+                        </tr>
+                        <tr class="element">
+                            <td class="subShell">Neon</td>
+                        </tr>
+                        <tr class="atomicWeight">
+                            <td class="subShell">20.180</td>
+                        </tr>
+                    </table>
+                   </td>
+               </tr>
+               <!-- This is 3rd Row -->
+               <tr class="row">
+                <td class="column alkali">
+                    <table class="Shell">
+                        <tr class="atomicNumber">
+                            <td class="subShell" >11</td>
+                        </tr>
+                        <tr class="symbol">
+                            <td class="subShell">Na</td>
+                        </tr>
+                        <tr class="element">
+                            <td class="subShell">Sodium</td>
+                        </tr>
+                        <tr class="atomicWeight">
+                            <td class="subShell">22.990</td>
+                        </tr>
+                    </table>
+                </td>
+                <td class="column alkaline">
+                    <table class="Shell">
+                        <tr class="atomicNumber">
+                            <td class="subShell" >12</td>
+                        </tr>
+                        <tr class="symbol">
+                            <td class="subShell">Mg</td>
+                        </tr>
+                        <tr class="element">
+                            <td class="subShell">Mangnesium</td>
+                        </tr>
+                        <tr class="atomicWeight">
+                            <td class="subShell">24.305</td>
+                        </tr>
+                    </table>
+                </td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td class="column basic">
+                    <table class="Shell">
+                        <tr class="atomicNumber">
+                            <td class="subShell" >13</td>
+                        </tr>
+                        <tr class="symbol">
+                            <td class="subShell">Al</td>
+                        </tr>
+                        <tr class="element">
+                            <td class="subShell">Aluminum</td>
+                        </tr>
+                        <tr class="atomicWeight">
+                            <td class="subShell">26.982</td>
+                        </tr>
+                    </table>
+                </td>
+                <td class="column semimetal">
+                    <table class="Shell">
+                        <tr class="atomicNumber">
+                            <td class="subShell" >14</td>
+                        </tr>
+                        <tr class="symbol">
+                            <td class="subShell">Si</td>
+                        </tr>
+                        <tr class="element">
+                            <td class="subShell">Silicon</td>
+                        </tr>
+                        <tr class="atomicWeight">
+                            <td class="subShell">28.086</td>
+                        </tr>
+                    </table>
+                </td>
+                <td class="column nonmetal">
+                    <table class="Shell">
+                        <tr class="atomicNumber">
+                            <td class="subShell" >15</td>
+                        </tr>
+                        <tr class="symbol">
+                            <td class="subShell">P</td>
+                        </tr>
+                        <tr class="element">
+                            <td class="subShell">Phosphorus</td>
+                        </tr>
+                        <tr class="atomicWeight">
+                            <td class="subShell">30.974</td>
+                        </tr>
+                    </table>
+                </td>
+                <td class="column nonmetal">
+                    <table class="Shell">
+                        <tr class="atomicNumber">
+                            <td class="subShell" >16</td>
+                        </tr>
+                        <tr class="symbol">
+                            <td class="subShell">S</td>
+                        </tr>
+                        <tr class="element">
+                            <td class="subShell">Sulfur</td>
+                        </tr>
+                        <tr class="atomicWeight">
+                            <td class="subShell">32.005</td>
+                        </tr>
+                    </table>
+                </td>
+                <td class="column halogen">
+                    <table class="Shell">
+                        <tr class="atomicNumber">
+                            <td class="subShell" >17</td>
+                        </tr>
+                        <tr class="symbol">
+                            <td class="subShell">Cl</td>
+                        </tr>
+                        <tr class="element">
+                            <td class="subShell">Chlorine</td>
+                        </tr>
+                        <tr class="atomicWeight">
+                            <td class="subShell">35.453</td>
+                        </tr>
+                    </table>
+                </td>
+                <td class="column noblegas">
+                    <table class="Shell">
+                        <tr class="atomicNumber">
+                            <td class="subShell" >18</td>
+                        </tr>
+                        <tr class="symbol">
+                            <td class="subShell">Ar</td>
+                        </tr>
+                        <tr class="element">
+                            <td class="subShell">Argon</td>
+                        </tr>
+                        <tr class="atomicWeight">
+                            <td class="subShell">39.948</td>
+                        </tr>
+                    </table>
+                </td>
+             </tr>
+             <!-- This is 4th Row -->
+             <tr class="row">
+                 <td class="column alkali">
+                    <table class="Shell">
+                        <tr class="atomicNumber">
+                            <td class="subShell" >19</td>
+                        </tr>
+                        <tr class="symbol">
+                            <td class="subShell">K</td>
+                        </tr>
+                        <tr class="element">
+                            <td class="subShell">Potassium</td>
+                        </tr>
+                        <tr class="atomicWeight">
+                            <td class="subShell">39.098</td>
+                        </tr>
+                    </table>
+                 </td>
+                 <td class="column alkaline">
+                    <table class="Shell">
+                        <tr class="atomicNumber">
+                            <td class="subShell" >20</td>
+                        </tr>
+                        <tr class="symbol">
+                            <td class="subShell">Ca</td>
+                        </tr>
+                        <tr class="element">
+                            <td class="subShell">Calcium</td>
+                        </tr>
+                        <tr class="atomicWeight">
+                            <td class="subShell">40.078</td>
+                        </tr>
+                    </table>
+                 </td>
+                 <td class="column transition">
+                    <table class="Shell">
+                        <tr class="atomicNumber">
+                            <td class="subShell" >21</td>
+                        </tr>
+                        <tr class="symbol">
+                            <td class="subShell">Sc</td>
+                        </tr>
+                        <tr class="element">
+                            <td class="subShell">Scandium</td>
+                        </tr>
+                        <tr class="atomicWeight">
+                            <td class="subShell">44.956</td>
+                        </tr>
+                    </table>
+                 </td>
+                 <td class="column transition">
+                    <table class="Shell">
+                        <tr class="atomicNumber">
+                            <td class="subShell" >22</td>
+                        </tr>
+                        <tr class="symbol">
+                            <td class="subShell">Ti</td>
+                        </tr>
+                        <tr class="element">
+                            <td class="subShell">Titanium</td>
+                        </tr>
+                        <tr class="atomicWeight">
+                            <td class="subShell">47.88</td>
+                        </tr>
+                    </table>
+                 </td>
+                 <td class="column transition">
+                    <table class="Shell">
+                        <tr class="atomicNumber">
+                            <td class="subShell" >23</td>
+                        </tr>
+                        <tr class="symbol">
+                            <td class="subShell">V</td>
+                        </tr>
+                        <tr class="element">
+                            <td class="subShell">Vanadium</td>
+                        </tr>
+                        <tr class="atomicWeight">
+                            <td class="subShell">50.942</td>
+                        </tr>
+                    </table>
+                 </td>
+                 <td class="column transition">
+                    <table class="Shell">
+                        <tr class="atomicNumber">
+                            <td class="subShell" >24</td>
+                        </tr>
+                        <tr class="symbol">
+                            <td class="subShell">Cr</td>
+                        </tr>
+                        <tr class="element">
+                            <td class="subShell">Chromium</td>
+                        </tr>
+                        <tr class="atomicWeight">
+                            <td class="subShell">51.996</td>
+                        </tr>
+                    </table>
+                 </td>
+                 <td class="column transition">
+                    <table class="Shell">
+                        <tr class="atomicNumber">
+                            <td class="subShell" >25</td>
+                        </tr>
+                        <tr class="symbol">
+                            <td class="subShell">Mn</td>
+                        </tr>
+                        <tr class="element">
+                            <td class="subShell">Managanese</td>
+                        </tr>
+                        <tr class="atomicWeight">
+                            <td class="subShell">54.938</td>
+                        </tr>
+                    </table>
+                 </td>
+                 <td class="column transition">
+                    <table class="Shell">
+                        <tr class="atomicNumber">
+                            <td class="subShell" >26</td>
+                        </tr>
+                        <tr class="symbol">
+                            <td class="subShell">Fe</td>
+                        </tr>
+                        <tr class="element">
+                            <td class="subShell">Iron</td>
+                        </tr>
+                        <tr class="atomicWeight">
+                            <td class="subShell">55.933</td>
+                        </tr>
+                    </table>
+                 </td>
+                 <td class="column transition">
+                    <table class="Shell">
+                        <tr class="atomicNumber">
+                            <td class="subShell" >27</td>
+                        </tr>
+                        <tr class="symbol">
+                            <td class="subShell">Co</td>
+                        </tr>
+                        <tr class="element">
+                            <td class="subShell">Cobalt</td>
+                        </tr>
+                        <tr class="atomicWeight">
+                            <td class="subShell">58.933</td>
+                        </tr>
+                    </table>
+                 </td>
+                 <td class="column transition">
+                    <table class="Shell">
+                        <tr class="atomicNumber">
+                            <td class="subShell" >28</td>
+                        </tr>
+                        <tr class="symbol">
+                            <td class="subShell">Ni</td>
+                        </tr>
+                        <tr class="element">
+                            <td class="subShell">Nickel</td>
+                        </tr>
+                        <tr class="atomicWeight">
+                            <td class="subShell">58.693</td>
+                        </tr>
+                    </table>
+                 </td>
+                 <td class="column transition">
+                    <table class="Shell">
+                        <tr class="atomicNumber">
+                            <td class="subShell" >29</td>
+                        </tr>
+                        <tr class="symbol">
+                            <td class="subShell">Cu</td>
+                        </tr>
+                        <tr class="element">
+                            <td class="subShell">Copper</td>
+                        </tr>
+                        <tr class="atomicWeight">
+                            <td class="subShell">63.546</td>
+                        </tr>
+                    </table>
+                 </td>
+                 <td class="column transition">
+                    <table class="Shell">
+                        <tr class="atomicNumber">
+                            <td class="subShell" >30</td>
+                        </tr>
+                        <tr class="symbol">
+                            <td class="subShell">Zn</td>
+                        </tr>
+                        <tr class="element">
+                            <td class="subShell">Zinc</td>
+                        </tr>
+                        <tr class="atomicWeight">
+                            <td class="subShell">65.39</td>
+                        </tr>
+                    </table>
+                 </td>
+                 <td class="column basic">
+                    <table class="Shell">
+                        <tr class="atomicNumber">
+                            <td class="subShell" >31</td>
+                        </tr>
+                        <tr class="symbol">
+                            <td class="subShell">Ga</td>
+                        </tr>
+                        <tr class="element">
+                            <td class="subShell">Gallium</td>
+                        </tr>
+                        <tr class="atomicWeight">
+                            <td class="subShell">69.732</td>
+                        </tr>
+                    </table>
+                 </td>
+                 <td class="column semimetal">
+                    <table class="Shell">
+                        <tr class="atomicNumber">
+                            <td class="subShell" >32</td>
+                        </tr>
+                        <tr class="symbol">
+                            <td class="subShell">Ge</td>
+                        </tr>
+                        <tr class="element">
+                            <td class="subShell">Germanium</td>
+                        </tr>
+                        <tr class="atomicWeight">
+                            <td class="subShell">72.61</td>
+                        </tr>
+                    </table>
+                 </td>
+                 <td class="column semimetal">
+                    <table class="Shell">
+                        <tr class="atomicNumber">
+                            <td class="subShell" >33</td>
+                        </tr>
+                        <tr class="symbol">
+                            <td class="subShell">As</td>
+                        </tr>
+                        <tr class="element">
+                            <td class="subShell">Arsenic</td>
+                        </tr>
+                        <tr class="atomicWeight">
+                            <td class="subShell">74.922</td>
+                        </tr>
+                    </table>
+                 </td>
+                 <td class="column nonmetal">
+                    <table class="Shell">
+                        <tr class="atomicNumber">
+                            <td class="subShell" >34</td>
+                        </tr>
+                        <tr class="symbol">
+                            <td class="subShell">Se</td>
+                        </tr>
+                        <tr class="element">
+                            <td class="subShell">Selenium</td>
+                        </tr>
+                        <tr class="atomicWeight">
+                            <td class="subShell">78.09</td>
+                        </tr>
+                    </table>
+                 </td>
+                 <td class="column halogen">
+                    <table class="Shell">
+                        <tr class="atomicNumber">
+                            <td class="subShell" >35</td>
+                        </tr>
+                        <tr class="symbol">
+                            <td class="subShell">Br</td>
+                        </tr>
+                        <tr class="element">
+                            <td class="subShell">Bromine</td>
+                        </tr>
+                        <tr class="atomicWeight">
+                            <td class="subShell">79.904</td>
+                        </tr>
+                    </table>
+                 </td>
+                 <td class="column noblegas">
+                    <table class="Shell">
+                        <tr class="atomicNumber">
+                            <td class="subShell" >36</td>
+                        </tr>
+                        <tr class="symbol">
+                            <td class="subShell">Kr</td>
+                        </tr>
+                        <tr class="element">
+                            <td class="subShell">Krypton</td>
+                        </tr>
+                        <tr class="atomicWeight">
+                            <td class="subShell">84.80</td>
+                        </tr>
+                    </table>
+                 </td>
+             </tr>
+             <!-- this is 5th row -->
+             <tr class="row">
+                <td class="column alkali">
+                    <table class="Shell">
+                        <tr class="atomicNumber">
+                            <td class="subShell" >37</td>
+                        </tr>
+                        <tr class="symbol">
+                            <td class="subShell">Rb</td>
+                        </tr>
+                        <tr class="element">
+                            <td class="subShell">Rubidium</td>
+                        </tr>
+                        <tr class="atomicWeight">
+                            <td class="subShell">84.468</td>
+                        </tr>
+                    </table>
+                </td>
+                <td class="column alkaline">
+                    <table class="Shell">
+                        <tr class="atomicNumber">
+                            <td class="subShell" >38</td>
+                        </tr>
+                        <tr class="symbol">
+                            <td class="subShell">Sr</td>
+                        </tr>
+                        <tr class="element">
+                            <td class="subShell">Strontium</td>
+                        </tr>
+                        <tr class="atomicWeight">
+                            <td class="subShell">87.62</td>
+                        </tr>
+                    </table>
+                </td>
+                <td class="column transition">
+                    <table class="Shell">
+                        <tr class="atomicNumber">
+                            <td class="subShell" >39</td>
+                        </tr>
+                        <tr class="symbol">
+                            <td class="subShell">Y</td>
+                        </tr>
+                        <tr class="element">
+                            <td class="subShell">Yttrium</td>
+                        </tr>
+                        <tr class="atomicWeight">
+                            <td class="subShell">88.906</td>
+                        </tr>
+                    </table>
+                </td>
+                <td class="column transition">
+                    <table class="Shell">
+                        <tr class="atomicNumber">
+                            <td class="subShell" >40</td>
+                        </tr>
+                        <tr class="symbol">
+                            <td class="subShell">Zr</td>
+                        </tr>
+                        <tr class="element">
+                            <td class="subShell">Zirconium</td>
+                        </tr>
+                        <tr class="atomicWeight">
+                            <td class="subShell">91.224</td>
+                        </tr>
+                    </table>
+                </td>
+                <td class="column transition">
+                    <table class="Shell">
+                        <tr class="atomicNumber">
+                            <td class="subShell" >41</td>
+                        </tr>
+                        <tr class="symbol">
+                            <td class="subShell">Nb</td>
+                        </tr>
+                        <tr class="element">
+                            <td class="subShell">Niobium</td>
+                        </tr>
+                        <tr class="atomicWeight">
+                            <td class="subShell">92.906</td>
+                        </tr>
+                    </table>
+                </td>
+                <td class="column transition">
+                    <table class="Shell">
+                        <tr class="atomicNumber">
+                            <td class="subShell" >42</td>
+                        </tr>
+                        <tr class="symbol">
+                            <td class="subShell">Mo</td>
+                        </tr>
+                        <tr class="element">
+                            <td class="subShell">Molybdenium</td>
+                        </tr>
+                        <tr class="atomicWeight">
+                            <td class="subShell">95.94</td>
+                        </tr>
+                    </table>
+                </td>
+                <td class="column transition">
+                    <table class="Shell">
+                        <tr class="atomicNumber">
+                            <td class="subShell" >43</td>
+                        </tr>
+                        <tr class="symbol">
+                            <td class="subShell">Tc</td>
+                        </tr>
+                        <tr class="element">
+                            <td class="subShell">Technetium</td>
+                        </tr>
+                        <tr class="atomicWeight">
+                            <td class="subShell">98.907</td>
+                        </tr>
+                    </table>
+                </td>
+                <td class="column transition">
+                    <table class="Shell">
+                        <tr class="atomicNumber">
+                            <td class="subShell" >44</td>
+                        </tr>
+                        <tr class="symbol">
+                            <td class="subShell">Ru</td>
+                        </tr>
+                        <tr class="element">
+                            <td class="subShell">Ruthetium</td>
+                        </tr>
+                        <tr class="atomicWeight">
+                            <td class="subShell">101.07</td>
+                        </tr>
+                    </table>
+                </td>
+                <td class="column transition">
+                    <table class="Shell">
+                        <tr class="atomicNumber">
+                            <td class="subShell" >45</td>
+                        </tr>
+                        <tr class="symbol">
+                            <td class="subShell">Rh</td>
+                        </tr>
+                        <tr class="element">
+                            <td class="subShell">Rhodium</td>
+                        </tr>
+                        <tr class="atomicWeight">
+                            <td class="subShell">102.906</td>
+                        </tr>
+                    </table>
+                </td>
+                <td class="column transition">
+                    <table class="Shell">
+                        <tr class="atomicNumber">
+                            <td class="subShell" >46</td>
+                        </tr>
+                        <tr class="symbol">
+                            <td class="subShell">Pd</td>
+                        </tr>
+                        <tr class="element">
+                            <td class="subShell">Palladium</td>
+                        </tr>
+                        <tr class="atomicWeight">
+                            <td class="subShell">106.42</td>
+                        </tr>
+                    </table>
+                </td>
+                <td class="column transition">
+                    <table class="Shell">
+                        <tr class="atomicNumber">
+                            <td class="subShell" >47</td>
+                        </tr>
+                        <tr class="symbol">
+                            <td class="subShell">Ag</td>
+                        </tr>
+                        <tr class="element">
+                            <td class="subShell">Silver</td>
+                        </tr>
+                        <tr class="atomicWeight">
+                            <td class="subShell">107.868</td>
+                        </tr>
+                    </table>
+                </td>
+                <td class="column transition">
+                    <table class="Shell">
+                        <tr class="atomicNumber">
+                            <td class="subShell" >48</td>
+                        </tr>
+                        <tr class="symbol">
+                            <td class="subShell">Cd</td>
+                        </tr>
+                        <tr class="element">
+                            <td class="subShell">Cadmium</td>
+                        </tr>
+                        <tr class="atomicWeight">
+                            <td class="subShell">112.411</td>
+                        </tr>
+                    </table>
+                </td>
+                <td class="column basic">
+                    <table class="Shell">
+                        <tr class="atomicNumber">
+                            <td class="subShell" >49</td>
+                        </tr>
+                        <tr class="symbol">
+                            <td class="subShell">In</td>
+                        </tr>
+                        <tr class="element">
+                            <td class="subShell">Indium</td>
+                        </tr>
+                        <tr class="atomicWeight">
+                            <td class="subShell">114.818</td>
+                        </tr>
+                    </table>
+                </td>
+                <td class="column basic">
+                    <table class="Shell">
+                        <tr class="atomicNumber">
+                            <td class="subShell" >50</td>
+                        </tr>
+                        <tr class="symbol">
+                            <td class="subShell">Sn</td>
+                        </tr>
+                        <tr class="element">
+                            <td class="subShell">Tin</td>
+                        </tr>
+                        <tr class="atomicWeight">
+                            <td class="subShell">118.71</td>
+                        </tr>
+                    </table>
+                </td>
+                <td class="column semimetal">
+                    <table class="Shell">
+                        <tr class="atomicNumber">
+                            <td class="subShell" >51</td>
+                        </tr>
+                        <tr class="symbol">
+                            <td class="subShell">Sb</td>
+                        </tr>
+                        <tr class="element">
+                            <td class="subShell">Antimony</td>
+                        </tr>
+                        <tr class="atomicWeight">
+                            <td class="subShell">121.760</td>
+                        </tr>
+                    </table>
+                </td>
+                <td class="column semimetal">
+                    <table class="Shell">
+                        <tr class="atomicNumber">
+                            <td class="subShell" >52</td>
+                        </tr>
+                        <tr class="symbol">
+                            <td class="subShell">Te</td>
+                        </tr>
+                        <tr class="element">
+                            <td class="subShell">Tellurium</td>
+                        </tr>
+                        <tr class="atomicWeight">
+                            <td class="subShell">127.6</td>
+                        </tr>
+                    </table>
+                </td>
+                <td class="column halogen">
+                    <table class="Shell">
+                        <tr class="atomicNumber">
+                            <td class="subShell" >53</td>
+                        </tr>
+                        <tr class="symbol">
+                            <td class="subShell">I</td>
+                        </tr>
+                        <tr class="element">
+                            <td class="subShell">Iodine</td>
+                        </tr>
+                        <tr class="atomicWeight">
+                            <td class="subShell">126.904</td>
+                        </tr>
+                    </table>
+                </td>
+                <td class="column noblegas">
+                    <table class="Shell">
+                        <tr class="atomicNumber">
+                            <td class="subShell" >54</td>
+                        </tr>
+                        <tr class="symbol">
+                            <td class="subShell">Xe</td>
+                        </tr>
+                        <tr class="element">
+                            <td class="subShell">Xenon</td>
+                        </tr>
+                        <tr class="atomicWeight">
+                            <td class="subShell">131.29</td>
+                        </tr>
+                    </table>
+                </td>
+             </tr>
+             <!-- This is 6th row -->
+             <tr class="row">
+                <td class="column alkali">
+                    <table class="Shell">
+                        <tr class="atomicNumber">
+                            <td class="subShell" >55</td>
+                        </tr>
+                        <tr class="symbol">
+                            <td class="subShell">Cs</td>
+                        </tr>
+                        <tr class="element">
+                            <td class="subShell">Cesium</td>
+                        </tr>
+                        <tr class="atomicWeight">
+                            <td class="subShell">132.905</td>
+                        </tr>
+                    </table>
+                </td>
+                <td class="column alkaline">
+                    <table class="Shell">
+                        <tr class="atomicNumber">
+                            <td class="subShell" >56</td>
+                        </tr>
+                        <tr class="symbol">
+                            <td class="subShell">Ba</td>
+                        </tr>
+                        <tr class="element">
+                            <td class="subShell">Barium</td>
+                        </tr>
+                        <tr class="atomicWeight">
+                            <td class="subShell">137.327</td>
+                        </tr>
+                    </table>
+                </td>
+                <td class="column lanthanide">
+                    <table class="Shell">
+                        <tr class="atomicNumber">
+                            <td class="subShell" >57-71</td>
+                        </tr>
+                        <tr class="symbol">
+                            <td class="subShell"></td>
+                        </tr>
+                        <tr class="element">
+                            <td class="subShell"></td>
+                        </tr>
+                        <tr class="atomicWeight">
+                            <td class="subShell"></td>
+                        </tr>
+                    </table>
+                </td>
+                <td class="column transition">
+                    <table class="Shell">
+                        <tr class="atomicNumber">
+                            <td class="subShell" >72</td>
+                        </tr>
+                        <tr class="symbol">
+                            <td class="subShell">Hf</td>
+                        </tr>
+                        <tr class="element">
+                            <td class="subShell">Hafnium</td>
+                        </tr>
+                        <tr class="atomicWeight">
+                            <td class="subShell">178.49</td>
+                        </tr>
+                    </table>
+                </td>
+                <td class="column transition">
+                    <table class="Shell">
+                        <tr class="atomicNumber">
+                            <td class="subShell" >73</td>
+                        </tr>
+                        <tr class="symbol">
+                            <td class="subShell">Ta</td>
+                        </tr>
+                        <tr class="element">
+                            <td class="subShell">Tantaium</td>
+                        </tr>
+                        <tr class="atomicWeight">
+                            <td class="subShell">180.948</td>
+                        </tr>
+                    </table>
+                </td>
+                <td class="column transition">
+                    <table class="Shell">
+                        <tr class="atomicNumber">
+                            <td class="subShell" >74</td>
+                        </tr>
+                        <tr class="symbol">
+                            <td class="subShell">W</td>
+                        </tr>
+                        <tr class="element">
+                            <td class="subShell">Tungsten</td>
+                        </tr>
+                        <tr class="atomicWeight">
+                            <td class="subShell">183.85</td>
+                        </tr>
+                    </table>
+                </td>
+                <td class="column transition">
+                    <table class="Shell">
+                        <tr class="atomicNumber">
+                            <td class="subShell" >75</td>
+                        </tr>
+                        <tr class="symbol">
+                            <td class="subShell">Re</td>
+                        </tr>
+                        <tr class="element">
+                            <td class="subShell">Rhenium</td>
+                        </tr>
+                        <tr class="atomicWeight">
+                            <td class="subShell">186.207</td>
+                        </tr>
+                    </table>
+                </td>
+                <td class="column transition">
+                    <table class="Shell">
+                        <tr class="atomicNumber">
+                            <td class="subShell" >76</td>
+                        </tr>
+                        <tr class="symbol">
+                            <td class="subShell">Os</td>
+                        </tr>
+                        <tr class="element">
+                            <td class="subShell">Osmium</td>
+                        </tr>
+                        <tr class="atomicWeight">
+                            <td class="subShell">190.23</td>
+                        </tr>
+                    </table>
+                </td>
+                <td class="column transition">
+                    <table class="Shell">
+                        <tr class="atomicNumber">
+                            <td class="subShell" >77</td>
+                        </tr>
+                        <tr class="symbol">
+                            <td class="subShell">Ir</td>
+                        </tr>
+                        <tr class="element">
+                            <td class="subShell">Iridium</td>
+                        </tr>
+                        <tr class="atomicWeight">
+                            <td class="subShell">192.22</td>
+                        </tr>
+                    </table>
+                </td>
+                <td class="column transition">
+                    <table class="Shell">
+                        <tr class="atomicNumber">
+                            <td class="subShell" >78</td>
+                        </tr>
+                        <tr class="symbol">
+                            <td class="subShell">Pt</td>
+                        </tr>
+                        <tr class="element">
+                            <td class="subShell">Platinum</td>
+                        </tr>
+                        <tr class="atomicWeight">
+                            <td class="subShell">195.08</td>
+                        </tr>
+                    </table>
+                </td>
+                <td class="column transition">
+                    <table class="Shell">
+                        <tr class="atomicNumber">
+                            <td class="subShell" >79</td>
+                        </tr>
+                        <tr class="symbol">
+                            <td class="subShell">Au</td>
+                        </tr>
+                        <tr class="element">
+                            <td class="subShell">Gold</td>
+                        </tr>
+                        <tr class="atomicWeight">
+                            <td class="subShell">196.967</td>
+                        </tr>
+                    </table>
+                </td>
+                <td class="column transition">
+                    <table class="Shell">
+                        <tr class="atomicNumber">
+                            <td class="subShell" >80</td>
+                        </tr>
+                        <tr class="symbol">
+                            <td class="subShell">Hg</td>
+                        </tr>
+                        <tr class="element">
+                            <td class="subShell">Mercury</td>
+                        </tr>
+                        <tr class="atomicWeight">
+                            <td class="subShell">200.59</td>
+                        </tr>
+                    </table>
+                </td>
+                <td class="column basic">
+                    <table class="Shell">
+                        <tr class="atomicNumber">
+                            <td class="subShell" >81</td>
+                        </tr>
+                        <tr class="symbol">
+                            <td class="subShell">Tl</td>
+                        </tr>
+                        <tr class="element">
+                            <td class="subShell">Thallium</td>
+                        </tr>
+                        <tr class="atomicWeight">
+                            <td class="subShell">204.383</td>
+                        </tr>
+                    </table>
+                </td>
+                <td class="column basic">
+                    <table class="Shell">
+                        <tr class="atomicNumber">
+                            <td class="subShell" >82</td>
+                        </tr>
+                        <tr class="symbol">
+                            <td class="subShell">Pb</td>
+                        </tr>
+                        <tr class="element">
+                            <td class="subShell">Lead</td>
+                        </tr>
+                        <tr class="atomicWeight">
+                            <td class="subShell">207.2</td>
+                        </tr>
+                    </table>
+                </td>
+                <td class="column basic">
+                    <table class="Shell">
+                        <tr class="atomicNumber">
+                            <td class="subShell" >83</td>
+                        </tr>
+                        <tr class="symbol">
+                            <td class="subShell">Bi</td>
+                        </tr>
+                        <tr class="element">
+                            <td class="subShell">Bismuth</td>
+                        </tr>
+                        <tr class="atomicWeight">
+                            <td class="subShell">208.980</td>
+                        </tr>
+                    </table>
+                </td>
+                <td class="column semimetal">
+                    <table class="Shell">
+                        <tr class="atomicNumber">
+                            <td class="subShell" >84</td>
+                        </tr>
+                        <tr class="symbol">
+                            <td class="subShell">Po</td>
+                        </tr>
+                        <tr class="element">
+                            <td class="subShell">Polonium</td>
+                        </tr>
+                        <tr class="atomicWeight">
+                            <td class="subShell">208.982</td>
+                        </tr>
+                    </table>
+                </td>
+                <td class="column halogen">
+                    <table class="Shell">
+                        <tr class="atomicNumber">
+                            <td class="subShell" >85</td>
+                        </tr>
+                        <tr class="symbol">
+                            <td class="subShell">At</td>
+                        </tr>
+                        <tr class="element">
+                            <td class="subShell">Astatine</td>
+                        </tr>
+                        <tr class="atomicWeight">
+                            <td class="subShell">209.987</td>
+                        </tr>
+                    </table>
+                </td>
+                <td class="column noblegas">
+                    <table class="Shell">
+                        <tr class="atomicNumber">
+                            <td class="subShell" >86</td>
+                        </tr>
+                        <tr class="symbol">
+                            <td class="subShell">Rn</td>
+                        </tr>
+                        <tr class="element">
+                            <td class="subShell">Radon</td>
+                        </tr>
+                        <tr class="atomicWeight">
+                            <td class="subShell">222.018</td>
+                        </tr>
+                    </table>
+                </td>
+             </tr>
+             <!-- This is 7th Row -->
+             <tr class="row">
+                <td class="column alkali">
+                    <table class="Shell">
+                        <tr class="atomicNumber">
+                            <td class="subShell" >87</td>
+                        </tr>
+                        <tr class="symbol">
+                            <td class="subShell">Fr</td>
+                        </tr>
+                        <tr class="element">
+                            <td class="subShell">Francium</td>
+                        </tr>
+                        <tr class="atomicWeight">
+                            <td class="subShell">223.020</td>
+                        </tr>
+                    </table>
+                </td>
+                <td class="column alkaline">
+                    <table class="Shell">
+                        <tr class="atomicNumber">
+                            <td class="subShell" >88</td>
+                        </tr>
+                        <tr class="symbol">
+                            <td class="subShell">Ra</td>
+                        </tr>
+                        <tr class="element">
+                            <td class="subShell">Radium</td>
+                        </tr>
+                        <tr class="atomicWeight">
+                            <td class="subShell">226.025</td>
+                        </tr>
+                    </table>
+                </td>
+                <td class="column actinide">
+                    <table class="Shell">
+                        <tr class="atomicNumber">
+                            <td class="subShell" >89-103</td>
+                        </tr>
+                        <tr class="symbol">
+                            <td class="subShell"></td>
+                        </tr>
+                        <tr class="element">
+                            <td class="subShell"></td>
+                        </tr>
+                        <tr class="atomicWeight">
+                            <td class="subShell"></td>
+                        </tr>
+                    </table>
+                </td>
+                <td class="column transition">
+                    <table class="Shell">
+                        <tr class="atomicNumber">
+                            <td class="subShell" >104</td>
+                        </tr>
+                        <tr class="symbol">
+                            <td class="subShell">Rf</td>
+                        </tr>
+                        <tr class="element">
+                            <td class="subShell">Rutherfordium</td>
+                        </tr>
+                        <tr class="atomicWeight">
+                            <td class="subShell">[261]</td>
+                        </tr>
+                    </table>
+                </td>
+                <td class="column transition">
+                    <table class="Shell">
+                        <tr class="atomicNumber">
+                            <td class="subShell" >105</td>
+                        </tr>
+                        <tr class="symbol">
+                            <td class="subShell">Db</td>
+                        </tr>
+                        <tr class="element">
+                            <td class="subShell">Dubnium</td>
+                        </tr>
+                        <tr class="atomicWeight">
+                            <td class="subShell">[262]</td>
+                        </tr>
+                    </table>
+                </td>
+                <td class="column transition">
+                    <table class="Shell">
+                        <tr class="atomicNumber">
+                            <td class="subShell" >106</td>
+                        </tr>
+                        <tr class="symbol">
+                            <td class="subShell">Sg</td>
+                        </tr>
+                        <tr class="element">
+                            <td class="subShell">Seaborgium</td>
+                        </tr>
+                        <tr class="atomicWeight">
+                            <td class="subShell">[266]</td>
+                        </tr>
+                    </table>
+                </td>
+                <td class="column transition">
+                    <table class="Shell">
+                        <tr class="atomicNumber">
+                            <td class="subShell" >107</td>
+                        </tr>
+                        <tr class="symbol">
+                            <td class="subShell">Bh</td>
+                        </tr>
+                        <tr class="element">
+                            <td class="subShell">Bohrium</td>
+                        </tr>
+                        <tr class="atomicWeight">
+                            <td class="subShell">[264]</td>
+                        </tr>
+                    </table>
+                </td>
+                <td class="column transition">
+                    <table class="Shell">
+                        <tr class="atomicNumber">
+                            <td class="subShell" >108</td>
+                        </tr>
+                        <tr class="symbol">
+                            <td class="subShell">Hs</td>
+                        </tr>
+                        <tr class="element">
+                            <td class="subShell">Hassium</td>
+                        </tr>
+                        <tr class="atomicWeight">
+                            <td class="subShell">[264]</td>
+                        </tr>
+                    </table>
+                </td>
+                <td class="column transition">
+                    <table class="Shell">
+                        <tr class="atomicNumber">
+                            <td class="subShell" >109</td>
+                        </tr>
+                        <tr class="symbol">
+                            <td class="subShell">Mt</td>
+                        </tr>
+                        <tr class="element">
+                            <td class="subShell">Meitnerium</td>
+                        </tr>
+                        <tr class="atomicWeight">
+                            <td class="subShell">[268]</td>
+                        </tr>
+                    </table>
+                </td>
+                <td class="column transition">
+                    <table class="Shell">
+                        <tr class="atomicNumber">
+                            <td class="subShell" >110</td>
+                        </tr>
+                        <tr class="symbol">
+                            <td class="subShell">Ds</td>
+                        </tr>
+                        <tr class="element">
+                            <td class="subShell">Darmstadtium</td>
+                        </tr>
+                        <tr class="atomicWeight">
+                            <td class="subShell">[269]</td>
+                        </tr>
+                    </table>
+                </td>
+                <td class="column transition">
+                    <table class="Shell">
+                        <tr class="atomicNumber">
+                            <td class="subShell" >111</td>
+                        </tr>
+                        <tr class="symbol">
+                            <td class="subShell">Rg</td>
+                        </tr>
+                        <tr class="element">
+                            <td class="subShell">Roentgenium</td>
+                        </tr>
+                        <tr class="atomicWeight">
+                            <td class="subShell">[272]</td>
+                        </tr>
+                    </table>
+                </td>
+                <td class="column transition">
+                    <table class="Shell">
+                        <tr class="atomicNumber">
+                            <td class="subShell" >112</td>
+                        </tr>
+                        <tr class="symbol">
+                            <td class="subShell">Cn</td>
+                        </tr>
+                        <tr class="element">
+                            <td class="subShell">Copernicium</td>
+                        </tr>
+                        <tr class="atomicWeight">
+                            <td class="subShell">[277]</td>
+                        </tr>
+                    </table>
+                </td>
+                <td class="column basic">
+                    <table class="Shell">
+                        <tr class="atomicNumber">
+                            <td class="subShell" >113</td>
+                        </tr>
+                        <tr class="symbol">
+                            <td class="subShell">Uut</td>
+                        </tr>
+                        <tr class="element">
+                            <td class="subShell">Ununtrium</td>
+                        </tr>
+                        <tr class="atomicWeight">
+                            <td class="subShell">unknown</td>
+                        </tr>
+                    </table>
+                </td>
+                <td class="column basic">
+                    <table class="Shell">
+                        <tr class="atomicNumber">
+                            <td class="subShell" >114</td>
+                        </tr>
+                        <tr class="symbol">
+                            <td class="subShell">Fl</td>
+                        </tr>
+                        <tr class="element">
+                            <td class="subShell">Flrovium</td>
+                        </tr>
+                        <tr class="atomicWeight">
+                            <td class="subShell">[289]</td>
+                        </tr>
+                    </table>
+                </td>
+                <td class="column basic">
+                    <table class="Shell">
+                        <tr class="atomicNumber">
+                            <td class="subShell" >115</td>
+                        </tr>
+                        <tr class="symbol">
+                            <td class="subShell">Uup</td>
+                        </tr>
+                        <tr class="element">
+                            <td class="subShell">Ununpentium</td>
+                        </tr>
+                        <tr class="atomicWeight">
+                            <td class="subShell">unknown</td>
+                        </tr>
+                    </table>
+                </td>
+                <td class="column basic">
+                    <table class="Shell">
+                        <tr class="atomicNumber">
+                            <td class="subShell" >116</td>
+                        </tr>
+                        <tr class="symbol">
+                            <td class="subShell">Lv</td>
+                        </tr>
+                        <tr class="element">
+                            <td class="subShell">Livermorium</td>
+                        </tr>
+                        <tr class="atomicWeight">
+                            <td class="subShell">[298]</td>
+                        </tr>
+                    </table>
+                </td>
+                <td class="column halogen">
+                    <table class="Shell">
+                        <tr class="atomicNumber">
+                            <td class="subShell" >117</td>
+                        </tr>
+                        <tr class="symbol">
+                            <td class="subShell">Uus</td>
+                        </tr>
+                        <tr class="element">
+                            <td class="subShell">Ununseptium</td>
+                        </tr>
+                        <tr class="atomicWeight">
+                            <td class="subShell">unknown</td>
+                        </tr>
+                    </table>
+                </td>
+                <td class="column noblegas">
+                    <table class="Shell">
+                        <tr class="atomicNumber">
+                            <td class="subShell" >118</td>
+                        </tr>
+                        <tr class="symbol">
+                            <td class="subShell">Uuo</td>
+                        </tr>
+                        <tr class="element">
+                            <td class="subShell">Ununoctium</td>
+                        </tr>
+                        <tr class="atomicWeight">
+                            <td class="subShell">Unknown</td>
+                        </tr>
+                    </table>
+                </td>
+             </tr>
+             
+            </tbody>
+           </table>    
+           
+
+            <!-- Lethenide and Actinide Series -->
+           <table id="table1">
+               <tbody>
+                   <!-- Lethenide Row -->
+                <tr class="row">
+                    <td class="column lanthanide">
+                        <table class="Shell">
+                            <tr class="atomicNumber">
+                                <td class="subShell" >57</td>
+                            </tr>
+                            <tr class="symbol">
+                                <td class="subShell">La</td>
+                            </tr>
+                            <tr class="element">
+                                <td class="subShell">Lanthanium</td>
+                            </tr>
+                            <tr class="atomicWeight">
+                                <td class="subShell">138.906</td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td class="column lanthanide">
+                        <table class="Shell">
+                            <tr class="atomicNumber">
+                                <td class="subShell" >58</td>
+                            </tr>
+                            <tr class="symbol">
+                                <td class="subShell">Ce</td>
+                            </tr>
+                            <tr class="element">
+                                <td class="subShell">Cerium</td>
+                            </tr>
+                            <tr class="atomicWeight">
+                                <td class="subShell">140.115</td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td class="column lanthanide">
+                        <table class="Shell">
+                            <tr class="atomicNumber">
+                                <td class="subShell" >59</td>
+                            </tr>
+                            <tr class="symbol">
+                                <td class="subShell">Pr</td>
+                            </tr>
+                            <tr class="element">
+                                <td class="subShell">Praseodymium</td>
+                            </tr>
+                            <tr class="atomicWeight">
+                                <td class="subShell">140.908</td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td class="column lanthanide">
+                        <table class="Shell">
+                            <tr class="atomicNumber">
+                                <td class="subShell" >60</td>
+                            </tr>
+                            <tr class="symbol">
+                                <td class="subShell">Nd</td>
+                            </tr>
+                            <tr class="element">
+                                <td class="subShell">Neodymium</td>
+                            </tr>
+                            <tr class="atomicWeight">
+                                <td class="subShell">144.24</td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td class="column lanthanide">
+                        <table class="Shell">
+                            <tr class="atomicNumber">
+                                <td class="subShell" >61</td>
+                            </tr>
+                            <tr class="symbol">
+                                <td class="subShell">Pm</td>
+                            </tr>
+                            <tr class="element">
+                                <td class="subShell">Promethium</td>
+                            </tr>
+                            <tr class="atomicWeight">
+                                <td class="subShell">144.913</td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td class="column lanthanide">
+                        <table class="Shell">
+                            <tr class="atomicNumber">
+                                <td class="subShell" >62</td>
+                            </tr>
+                            <tr class="symbol">
+                                <td class="subShell">Sm</td>
+                            </tr>
+                            <tr class="element">
+                                <td class="subShell">Samarium</td>
+                            </tr>
+                            <tr class="atomicWeight">
+                                <td class="subShell">150.36</td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td class="column lanthanide">
+                        <table class="Shell">
+                            <tr class="atomicNumber">
+                                <td class="subShell" >63</td>
+                            </tr>
+                            <tr class="symbol">
+                                <td class="subShell">Eu</td>
+                            </tr>
+                            <tr class="element">
+                                <td class="subShell">Europium</td>
+                            </tr>
+                            <tr class="atomicWeight">
+                                <td class="subShell">151.968</td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td class="column lanthanide">
+                        <table class="Shell">
+                            <tr class="atomicNumber">
+                                <td class="subShell" >64</td>
+                            </tr>
+                            <tr class="symbol">
+                                <td class="subShell">Gd</td>
+                            </tr>
+                            <tr class="element">
+                                <td class="subShell">Gadolinium</td>
+                            </tr>
+                            <tr class="atomicWeight">
+                                <td class="subShell">157.925</td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td class="column lanthanide">
+                        <table class="Shell">
+                            <tr class="atomicNumber">
+                                <td class="subShell" >65</td>
+                            </tr>
+                            <tr class="symbol">
+                                <td class="subShell">Tb</td>
+                            </tr>
+                            <tr class="element">
+                                <td class="subShell">Terbium</td>
+                            </tr>
+                            <tr class="atomicWeight">
+                                <td class="subShell">158.925</td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td class="column lanthanide">
+                        <table class="Shell">
+                            <tr class="atomicNumber">
+                                <td class="subShell" >66</td>
+                            </tr>
+                            <tr class="symbol">
+                                <td class="subShell">Dy</td>
+                            </tr>
+                            <tr class="element">
+                                <td class="subShell">Dysprosium</td>
+                            </tr>
+                            <tr class="atomicWeight">
+                                <td class="subShell">162.50</td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td class="column lanthanide">
+                        <table class="Shell">
+                            <tr class="atomicNumber">
+                                <td class="subShell" >67</td>
+                            </tr>
+                            <tr class="symbol">
+                                <td class="subShell">Ho</td>
+                            </tr>
+                            <tr class="element">
+                                <td class="subShell">Holmium</td>
+                            </tr>
+                            <tr class="atomicWeight">
+                                <td class="subShell">164.930</td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td class="column lanthanide">
+                        <table class="Shell">
+                            <tr class="atomicNumber">
+                                <td class="subShell" >68</td>
+                            </tr>
+                            <tr class="symbol">
+                                <td class="subShell">Er</td>
+                            </tr>
+                            <tr class="element">
+                                <td class="subShell">Erbium</td>
+                            </tr>
+                            <tr class="atomicWeight">
+                                <td class="subShell">167.26</td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td class="column lanthanide">
+                        <table class="Shell">
+                            <tr class="atomicNumber">
+                                <td class="subShell" >69</td>
+                            </tr>
+                            <tr class="symbol">
+                                <td class="subShell">Tm</td>
+                            </tr>
+                            <tr class="element">
+                                <td class="subShell">Thulium</td>
+                            </tr>
+                            <tr class="atomicWeight">
+                                <td class="subShell">168.934</td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td class="column lanthanide">
+                        <table class="Shell">
+                            <tr class="atomicNumber">
+                                <td class="subShell" >70</td>
+                            </tr>
+                            <tr class="symbol">
+                                <td class="subShell">Yb</td>
+                            </tr>
+                            <tr class="element">
+                                <td class="subShell">Ytterbium</td>
+                            </tr>
+                            <tr class="atomicWeight">
+                                <td class="subShell">173.04</td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td class="column lanthanide">
+                        <table class="Shell">
+                            <tr class="atomicNumber">
+                                <td class="subShell" >71</td>
+                            </tr>
+                            <tr class="symbol">
+                                <td class="subShell">Lu</td>
+                            </tr>
+                            <tr class="element">
+                                <td class="subShell">Lutetium</td>
+                            </tr>
+                            <tr class="atomicWeight">
+                                <td class="subShell">174.967</td>
+                            </tr>
+                        </table>
+                    </td>
+                   
+                 </tr>
+                  <!-- Actinide Row -->
+             <tr class="row">
+                 <td class="column actinide">
+                     <table class="Shell">
+                         <tr class="atomicNumber">
+                             <td class="subShell" >89</td>
+                         </tr>
+                         <tr class="symbol">
+                             <td class="subShell">Ac</td>
+                         </tr>
+                         <tr class="element">
+                             <td class="subShell">Actinium</td>
+                         </tr>
+                         <tr class="atomicWeight">
+                             <td class="subShell">227.028</td>
+                         </tr>
+                     </table>
+                 </td>
+                 <td class="column actinide">
+                     <table class="Shell">
+                         <tr class="atomicNumber">
+                             <td class="subShell" >90</td>
+                         </tr>
+                         <tr class="symbol">
+                             <td class="subShell">Th</td>
+                         </tr>
+                         <tr class="element">
+                             <td class="subShell">Thorium</td>
+                         </tr>
+                         <tr class="atomicWeight">
+                             <td class="subShell">232.038</td>
+                         </tr>
+                     </table>
+                 </td>
+                 <td class="column actinide">
+                     <table class="Shell">
+                         <tr class="atomicNumber">
+                             <td class="subShell" >91</td>
+                         </tr>
+                         <tr class="symbol">
+                             <td class="subShell">Pa</td>
+                         </tr>
+                         <tr class="element">
+                             <td class="subShell">Protactinium</td>
+                         </tr>
+                         <tr class="atomicWeight">
+                             <td class="subShell">231.036</td>
+                         </tr>
+                     </table>
+                 </td>
+                 <td class="column actinide">
+                     <table class="Shell">
+                         <tr class="atomicNumber">
+                             <td class="subShell" >92</td>
+                         </tr>
+                         <tr class="symbol">
+                             <td class="subShell">U</td>
+                         </tr>
+                         <tr class="element">
+                             <td class="subShell">Uranium</td>
+                         </tr>
+                         <tr class="atomicWeight">
+                             <td class="subShell">238.029</td>
+                         </tr>
+                     </table>
+                 </td>
+                 <td class="column actinide">
+                     <table class="Shell">
+                         <tr class="atomicNumber">
+                             <td class="subShell" >93</td>
+                         </tr>
+                         <tr class="symbol">
+                             <td class="subShell">Np</td>
+                         </tr>
+                         <tr class="element">
+                             <td class="subShell">Neptunium</td>
+                         </tr>
+                         <tr class="atomicWeight">
+                             <td class="subShell">237.048</td>
+                         </tr>
+                     </table>
+                 </td>
+                 <td class="column actinide">
+                     <table class="Shell">
+                         <tr class="atomicNumber">
+                             <td class="subShell" >94</td>
+                         </tr>
+                         <tr class="symbol">
+                             <td class="subShell">Pu</td>
+                         </tr>
+                         <tr class="element">
+                             <td class="subShell">Plutonium</td>
+                         </tr>
+                         <tr class="atomicWeight">
+                             <td class="subShell">244.064</td>
+                         </tr>
+                     </table>
+                 </td>
+                 <td class="column actinide">
+                     <table class="Shell">
+                         <tr class="atomicNumber">
+                             <td class="subShell" >95</td>
+                         </tr>
+                         <tr class="symbol">
+                             <td class="subShell">Am</td>
+                         </tr>
+                         <tr class="element">
+                             <td class="subShell">Americium</td>
+                         </tr>
+                         <tr class="atomicWeight">
+                             <td class="subShell">243.061</td>
+                         </tr>
+                     </table>
+                 </td>
+                 <td class="column actinide">
+                     <table class="Shell">
+                         <tr class="atomicNumber">
+                             <td class="subShell" >96</td>
+                         </tr>
+                         <tr class="symbol">
+                             <td class="subShell">Cm</td>
+                         </tr>
+                         <tr class="element">
+                             <td class="subShell">Curium</td>
+                         </tr>
+                         <tr class="atomicWeight">
+                             <td class="subShell">247.070</td>
+                         </tr>
+                     </table>
+                 </td>
+                 <td class="column actinide">
+                     <table class="Shell">
+                         <tr class="atomicNumber">
+                             <td class="subShell" >97</td>
+                         </tr>
+                         <tr class="symbol">
+                             <td class="subShell">Bk</td>
+                         </tr>
+                         <tr class="element">
+                             <td class="subShell">Berkelium</td>
+                         </tr>
+                         <tr class="atomicWeight">
+                             <td class="subShell">247.070</td>
+                         </tr>
+                     </table>
+                 </td>
+                 <td class="column actinide">
+                     <table class="Shell">
+                         <tr class="atomicNumber">
+                             <td class="subShell" >98</td>
+                         </tr>
+                         <tr class="symbol">
+                             <td class="subShell">Cf</td>
+                         </tr>
+                         <tr class="element">
+                             <td class="subShell">Californium</td>
+                         </tr>
+                         <tr class="atomicWeight">
+                             <td class="subShell">251.080</td>
+                         </tr>
+                     </table>
+                 </td>
+                 <td class="column actinide">
+                     <table class="Shell">
+                         <tr class="atomicNumber">
+                             <td class="subShell" >99</td>
+                         </tr>
+                         <tr class="symbol">
+                             <td class="subShell">Es</td>
+                         </tr>
+                         <tr class="element">
+                             <td class="subShell">Einsteinium</td>
+                         </tr>
+                         <tr class="atomicWeight">
+                             <td class="subShell">[254]</td>
+                         </tr>
+                     </table>
+                 </td>
+                 <td class="column actinide">
+                     <table class="Shell">
+                         <tr class="atomicNumber">
+                             <td class="subShell" >100</td>
+                         </tr>
+                         <tr class="symbol">
+                             <td class="subShell">Fm</td>
+                         </tr>
+                         <tr class="element">
+                             <td class="subShell">Fermium</td>
+                         </tr>
+                         <tr class="atomicWeight">
+                             <td class="subShell">257.095</td>
+                         </tr>
+                     </table>
+                 </td>
+                 <td class="column actinide">
+                     <table class="Shell">
+                         <tr class="atomicNumber">
+                             <td class="subShell" >101</td>
+                         </tr>
+                         <tr class="symbol">
+                             <td class="subShell">Md</td>
+                         </tr>
+                         <tr class="element">
+                             <td class="subShell">Mendelevium</td>
+                         </tr>
+                         <tr class="atomicWeight">
+                             <td class="subShell">258.1</td>
+                         </tr>
+                     </table>
+                 </td>
+                 <td class="column actinide">
+                     <table class="Shell">
+                         <tr class="atomicNumber">
+                             <td class="subShell" >102</td>
+                         </tr>
+                         <tr class="symbol">
+                             <td class="subShell">No</td>
+                         </tr>
+                         <tr class="element">
+                             <td class="subShell">Nobelium</td>
+                         </tr>
+                         <tr class="atomicWeight">
+                             <td class="subShell">259.101</td>
+                         </tr>
+                     </table>
+                 </td>
+                 <td class="column actinide">
+                     <table class="Shell">
+                         <tr class="atomicNumber">
+                             <td class="subShell" >103</td>
+                         </tr>
+                         <tr class="symbol">
+                             <td class="subShell">Lr</td>
+                         </tr>
+                         <tr class="element">
+                             <td class="subShell">Lawrencium</td>
+                         </tr>
+                         <tr class="atomicWeight">
+                             <td class="subShell">[262]</td>
+                         </tr>
+                     </table>
+                 </td>
+                
+              </tr>
+               </tbody>
+           </table>
+
+           <!-- Color scheme -->
+           <table id="table2">
+                  <tbody>
+                      <tr class="row">
+                          <td class="column alkali">Alkali Metal</td>
+                          <td class="column alkaline">Alkaline Earth</td>
+                          <td class="column transition">Transition Metal</td>
+                          <td class="column basic">Basic Metal</td>
+                          <td class="column semimetal">Semimetal</td>
+                          <td class="column nonmetal">Nonmetal</td>
+                          <td class="column halogen">Halogen</td>
+                          <td class="column noblegas">Noble Gas</td>
+                          <td class="column lanthanide">Lanthanide</td>
+                          <td class="column actinide">Actinide</td>
+                      </tr>
+                  </tbody>
+           </table>
+    
+    
+          
+    
+</body>
+</html>

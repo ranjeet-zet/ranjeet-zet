@@ -1,6 +1,6 @@
-//Hello I,m masai student...
+<h3 align="center" >Hello I,m masai student...</h3>
 
-# नमस्ते 🙏 My name is Ranjeet Kumar ✌️
+<h1 align="center" >नमस्ते 🙏 My name is Ranjeet Kumar ✌️</h1>
 
 <img align="center" alt="Coding" width="400" src="https://raw.githubusercontent.com/Adam-pw/Adam-pw/main/animation_500_kxa883sd.gif">
 

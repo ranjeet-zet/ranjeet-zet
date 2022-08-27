@@ -1,17 +1,8 @@
-<!-- - 👋 Hi, I’m @ranjeetmasaischool
-- 👀 I’m interested in full stack web devlopment
-- 🌱 I’m currently learning MERN Stack
-- 💞️ I’m looking to collaborate on full stack web devloper
-- 📫 How to reach me ... Write text on WhatsApp@+919162690495
- -->
-<!---
-ranjeetmasaischool/ranjeetmasaischool is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
-
 //Hello I,m masai student...
 
 # नमस्ते 🙏 My name is Ranjeet Kumar ✌️
+
+<img align="center" alt="Coding" width="400" src="https://raw.githubusercontent.com/Adam-pw/Adam-pw/main/animation_500_kxa883sd.gif">
 
 ## A passionate Full Stack Web Developer from India
 

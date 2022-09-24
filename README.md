@@ -4,7 +4,7 @@
 
 <img align="center" alt="Coding"  width="100%" src="https://www.excelsisdeo.com/images/AlphaTestersAnimation_60.gif">
 
-## A passionate Full Stack Web Developer from India
+## A passionate Java Developer from India
 
 - 🌍  I'm based in Biar, India
 - ✉️  You can contact me at [ranjeet030200@gmail.com](mailto:ranjeet030200@gmail.com)

@@ -1,7 +1,7 @@
 <h3 align="center" >Hello I,m masai student...</h3>
 
-<h1 align="center" >नमस्ते 🙏 My name is Ranjeet Kumar ✌️</h1>
-
+<h1 align="center" >नमस्ते 🙏</h1>
+<h1 align="center" >My name is Ranjeet Kumar ❤️</h1>
 <img align="center" alt="Coding"  width="100%" src="https://www.excelsisdeo.com/images/AlphaTestersAnimation_60.gif">
 
 ## A passionate Java Developer from India
@@ -15,20 +15,39 @@ src="https://img.shields.io/twitter/follow/Ranjeet91626904?logo=twitter&style=fo
 /></a><a href="https://www.github.com/ranjeetmasaischool" target="_blank" rel="noreferrer"><img
 src="https://img.shields.io/github/followers/ranjeetmasaischool?logo=github&style=for-the-badge&color=ffffff&labelColor=000000" /></a>
 
+[![Portfolio Badge](https://img.shields.io/badge/Website-3b5998?style=flat-square&logo=google-chrome&logoColor=white)](https://ranjeetmasaischool.github.io)
+[![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-0e76a8?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/ranjeet-jd/)
+
+[![Twitter Badge](https://img.shields.io/badge/-Twitter-00acee?style=flat-square&logo=Twitter&logoColor=white)](https://twitter.com/Ranjeet91626904)
+
+![Github Followers](https://img.shields.io/github/followers/ranjeetmasaischool?label=Github%20Connection&style=flat)
+
 ### Skills
 
-<span><h2 align="center">Languages and Tools:</h2>
-  <br>
-  <p align="center">
-      <img src="https://www.vectorlogo.zone/logos/w3_html5/w3_html5-icon.svg" alt="html" width="55" height="55"/>
-      <img src="https://www.vectorlogo.zone/logos/w3_css/w3_css-icon.svg" alt="css" width="55" height="55"/>
-      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="55" height="55"/>
-      <img src="https://www.vectorlogo.zone/logos/java/java-icon.svg" alt="java"  height="55"/>
-      <img src="https://www.vectorlogo.zone/logos/springio/springio-icon.svg" alt="spring" width="55" height="55"/>
-      <img src="https://www.vectorlogo.zone/logos/amazon_aws/amazon_aws-icon.svg" alt="Nodejs" width="55" height="55"/>
-</p></span>
 
-### Socials
+### Familiar Tech Stack:
+
+<!-- coding boy -->
+<img width="40%" align="right" alt="Coding Boy" src="https://github.com/sanajitjana/sanajitjana/blob/master/coding.gif?raw=true" />
+
+<!-- language -->
+
+[![My Skills](https://skillicons.dev/icons?i=java,spring,hibernate,php,mysql,js,html,css)](http://sanajitjana.github.io/)
+
+<br/>
+
+### Used Tools:
+
+[![My Skills](https://skillicons.dev/icons?i=git,github,netlify,heroku,vscode,sts,eclips)](http://sanajitjana.github.io/)
+
+
+<br />
+
+### Interests:
+
+- Explore new Tech 💻
+- Travel & Ride 🌎
+
 
 <!-- <p align="left"> <a href="https://www.github.com/ranjeetmasaischool" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github.svg" width="32" height="32" /></a> <a href="https://www.linkedin.com/in/Ranjeet91626904/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin.svg" width="32" height="32" /></a> <a href="http://www.medium.com/anannya.sharma" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/medium.svg" width="32" height="32" /></a> <a href="https://www.twitter.com/anannya_sharma_" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/twitter.svg" width="32" height="32" /></a> <a href="https://www.youtube.com/c/ucznvxhf2lnxsgrxvnepwcjq" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/youtube.svg" width="32" height="32" /></a></p> -->
 

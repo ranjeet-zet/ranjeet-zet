@@ -32,7 +32,7 @@ src="https://img.shields.io/github/followers/ranjeetmasaischool?logo=github&styl
 
 <!-- language -->
 
-[![My Skills](https://skillicons.dev/icons?i=java,spring,hibernate,php,mysql,js,html,css)](http://sanajitjana.github.io/)
+[![My Skills](https://skillicons.dev/icons?i=java,spring,hibernate,php,mysql,js,html,css)](http://ranjeetmasaischool.github.io/)
 
 <br/>
 

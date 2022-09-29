@@ -28,7 +28,7 @@ src="https://img.shields.io/github/followers/ranjeetmasaischool?logo=github&styl
 ### Familiar Tech Stack:
 
 <!-- coding boy -->
-<img width="40%" align="right" alt="Coding Boy" src="https://camo.githubusercontent.com/c1dcb74cc1c1835b1d716f5051499a2814c683c806b15f04b0eba492863703e9/68747470733a2f2f63646e2e6472696262626c652e636f6d2f75736572732f3733303730332f73637265656e73686f74732f363538313234332f6176656e746f2e676966?raw=true" />
+<img width="40%" align="right" alt="Coding Boy" src="https://user-images.githubusercontent.com/75193540/156818786-1dc5df82-3864-4628-a77d-c34f8c6ceeeb.gif?raw=true" />
 
 <!-- language -->
 

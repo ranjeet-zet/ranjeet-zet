@@ -1,4 +1,4 @@
-<h3 align="center" >Hello I,m masai student...</h3>
+<h3 align="center" >Hello I,m Masai student...</h3>
 
 <h1 align="center" >नमस्ते 🙏</h1>
 <h1 align="center" >My name is Ranjeet Kumar ❤️</h1>
@@ -22,7 +22,7 @@ src="https://img.shields.io/github/followers/ranjeetmasaischool?logo=github&styl
 
 ![Github Followers](https://img.shields.io/github/followers/ranjeetmasaischool?label=Github%20Connection&style=flat)
 
-### Skills
+<h1> Skills </h1>
 
 
 ### Familiar Tech Stack:
@@ -43,7 +43,7 @@ src="https://img.shields.io/github/followers/ranjeetmasaischool?logo=github&styl
 
 <br />
 
-### Interests:
+<h1>Interests </h1>
 
 - Explore new Tech 💻
 - Travel & Ride 🌎
@@ -51,7 +51,7 @@ src="https://img.shields.io/github/followers/ranjeetmasaischool?logo=github&styl
 
 <!-- <p align="left"> <a href="https://www.github.com/ranjeetmasaischool" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github.svg" width="32" height="32" /></a> <a href="https://www.linkedin.com/in/Ranjeet91626904/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin.svg" width="32" height="32" /></a> <a href="http://www.medium.com/anannya.sharma" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/medium.svg" width="32" height="32" /></a> <a href="https://www.twitter.com/anannya_sharma_" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/twitter.svg" width="32" height="32" /></a> <a href="https://www.youtube.com/c/ucznvxhf2lnxsgrxvnepwcjq" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/youtube.svg" width="32" height="32" /></a></p> -->
 
-### Badges
+<h1> Badges </h1>
 
 <b>My GitHub Stats</b>
 

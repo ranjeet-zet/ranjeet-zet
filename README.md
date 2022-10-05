@@ -6,7 +6,7 @@
 
 ## A passionate Java Developer from India
 
-- 🌍  I'm based in Biar, India
+- 🌍  I'm based in Bihar, India
 - ✉️  You can contact me at [ranjeet030200@gmail.com](mailto:ranjeet030200@gmail.com)
 - 🧠  I'm learning JAVA Backend
 

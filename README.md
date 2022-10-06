@@ -2,7 +2,7 @@
 
 <h1 align="center" >नमस्ते 🙏</h1>
 <h1 align="center" >My name is Ranjeet Kumar ❤️</h1>
-<img align="center" alt="Coding"  width="100%" src="https://www.excelsisdeo.com/images/AlphaTestersAnimation_60.gif">
+<img align="center" alt="Coding"  width="100%" src="https://d33wubrfki0l68.cloudfront.net/ca11d34e4c7b910922d9063384ad64850c463099/d5c54/static/fca6dfff85717703fdee7fa748d779a5/rust-cpp-header.png">
 
 ## A passionate Java Developer from India
 

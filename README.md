@@ -1,4 +1,4 @@
-<h3 align="center" >Hello I,m Masai student...</h3>
+<h3 align="center" >Hello I,m Masai student</h3>
 
 <h1 align="center" >नमस्ते 🙏</h1>
 <h1 align="center" >My name is Ranjeet Kumar ❤️</h1>

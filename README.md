@@ -43,7 +43,7 @@ src="https://img.shields.io/github/followers/ranjeetmasaischool?logo=github&styl
 
 <br />
 
-<h1>Interests </h1>
+<h1>Interests</h1>
 
 - Explore new Tech 💻
 - Travel & Ride 🌎

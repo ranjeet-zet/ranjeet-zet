@@ -1,7 +1,7 @@
 <h3 align="center" >Hello I,m Masai student</h3>
 
-<h1 align="center" >नमस्ते 🙏</h1>
-<h1 align="center" >My name is Ranjeet Kumar ❤️</h1>
+<h1 align="center" >नमस्ते 🙏 </h1>
+<h1 align="center" >My name is Ranjeet Kumar ❤️ </h1>
 <img align="center" alt="Coding"  width="100%" src="https://github.com/ranjeetmasaischool/ranjeetmasaischool.github.io/blob/main/image/JAVA2.png">
 
 ## A passionate Java Developer from India

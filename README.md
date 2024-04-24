@@ -8,7 +8,7 @@
 
 - 🌍  I'm From Bihar, India
 - ✉️  You can contact me at [ranjeet030200@gmail.com](mailto:ranjeet030200@gmail.com)
-- 🧠  I'm learning JAVA Backend
+- 🧠  I'm learning MERN Stack
 
 <a href="https://twitter.com/Ranjeet91626904" target="_blank" rel="noreferrer"><img
 src="https://img.shields.io/twitter/follow/Ranjeet91626904?logo=twitter&style=for-the-badge&color=ffffff&labelColor=000000"

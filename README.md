@@ -4,7 +4,7 @@
 <h1 align="center" >My name is Ranjeet Kumar ❤️ </h1>
 <img align="center" alt="Coding"  width="100%" src="https://github.com/ranjeetmasaischool/ranjeetmasaischool.github.io/blob/main/image/JAVA2.png">
 
-## A passionate MERN Stack Developer from India
+## A passionate MERN Stack develeper proficient in Web architecture, NodeJs, React, JavaScript, HTML, CSS, Data Structures, and Algorithms
 
 - 🌍  I'm From Bihar, India
 - ✉️  You can contact me at [ranjeet030200@gmail.com](mailto:ranjeet030200@gmail.com)

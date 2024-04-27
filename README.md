@@ -2,12 +2,11 @@
 
 <h1 align="center" >नमस्ते 🙏 </h1>
 <h1 align="center" >My name is Ranjeet Kumar ❤️ </h1>
-<img align="center" alt="Coding"  width="100%" src="https://github.com/ranjeetmasaischool/ranjeetmasaischool.github.io/blob/main/image/JAVA2.png">
 
 ## A passionate MERN Stack developer proficient in Web architecture, NodeJs, React, JavaScript, HTML, CSS, Data Structures, and Algorithms
 
 - 🌍  I'm From Bihar, India
-- ✉️  You can contact me at [ranjeet030200@gmail.com](mailto:ranjeet030200@gmail.com)
+- ✉️  You can contact me at [dev.ranjeet.mern@gmail.com](mailto:dev.ranjeet.mern@gmail.com)
 - 🧠  I'm learning MERN Stack
 
 <a href="https://twitter.com/Ranjeet91626904" target="_blank" rel="noreferrer"><img
@@ -32,7 +31,7 @@ src="https://img.shields.io/github/followers/ranjeetmasaischool?logo=github&styl
 
 <!-- language -->
 
-[![My Skills](https://skillicons.dev/icons?i=java,spring,hibernate,php,mysql,js,html,css)](http://ranjeetmasaischool.github.io/)
+[![My Skills](https://skillicons.dev/icons?i=react,nodejs,mongodb,expressjs,java,spring,mysql,js,html,css)](http://ranjeetmasaischool.github.io/)
 
 <br/>
 

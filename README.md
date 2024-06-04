@@ -1,5 +1,3 @@
-![image](https://www.crio.do/blog/content/images/2021/04/Full-stack-web-developer.png)
-
 <h3 align="center" >I,m Masai student</h3>
 
 <h1 align="center" >नमस्ते 🙏 </h1>
@@ -8,7 +6,7 @@
 ## A passionate MERN Stack developer proficient in Web architecture, NodeJs, React, JavaScript, HTML, CSS, Data Structures, and Algorithms
 
 - 🌍  I'm From Bihar, India
-- ✉️  You can contact me at [dev.ranjeet.mern@gmail.com](mailto:dev.ranjeet.mern@gmail.com)
+- ✉️  You can contact me at [dev.ranjeet.java@gmail.com](mailto:dev.ranjeet.java@gmail.com)
 - 🧠  I'm learning MERN Stack
 
 <a href="https://twitter.com/Ranjeet91626904" target="_blank" rel="noreferrer"><img

@@ -31,7 +31,7 @@ src="https://img.shields.io/github/followers/ranjeetmasaischool?logo=github&styl
 
 <!-- language -->
 
-[![My Skills](https://skillicons.dev/icons?i=react,nextjs,nodejs,mongodb,expressjs,redis,mysql,js,html,css)](http://ranjeetmasaischool.github.io/)
+[![My Skills](https://skillicons.dev/icons?i=react,nodejs,mongodb,expressjs,java,spring,mysql,js,html,css)](http://ranjeetmasaischool.github.io/)
 
 <br/>
 

@@ -5,6 +5,36 @@
 
 ## A passionate Java Developer from India
 
+```javascript
+const aboutMe = {
+  pronouns: "he" | "him",
+  code: ["JavaScript", "TypeScript", "Java", "HTML", "CSS", "SQL"],
+  technologies: {
+    frontEnd: {
+      js: ["React", "Next.js", "React Native"],
+      stateManagement: ["Redux", "Context API"],
+      testing: ["Vitest", "React Testing Library"],
+      css: ["Tailwind CSS", "Bootstrap", "Material UI", "Chakra UI", "Styled Components"],
+    },
+    backEnd: {
+      java: ["Spring Boot", "Spring Security", "Spring Data JPA"],
+      node: ["Express"],
+      database: ["PostgreSQL", "MySQL", "MongoDB"],
+      cms: ["Strapi"],
+    },
+    devOps: {
+      tools: ["Docker", "GitHub Actions", "AWS EC2", "S3", "Nginx", "PM2"],
+    },
+    misc: {
+      analytics: ["Mixpanel"],
+      chatSupport: ["Freshchat"],
+      mobile: ["React Native"],
+      auth: ["JWT", "Session-based", "Third-party OAuth"],
+    },
+  },
+};
+```
+
 - 🌍  I'm From Bihar, India
 - ✉️  You can contact me at [ranjeet030200@gmail.com](mailto:ranjeet030200@gmail.com)
 - 🧠  I'm learning JAVA Backend

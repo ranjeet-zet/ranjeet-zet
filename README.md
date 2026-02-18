@@ -23,7 +23,7 @@ const aboutMe = {
       cms: ["Strapi"],
     },
     devOps: {
-      tools: ["Docker", "GitHub Actions", "AWS EC2", "S3", "Nginx", "PM2"],
+      tools: ["Docker", "GitHub Actions", "AWS","EC2", "S3", "Nginx", "PM2"],
     },
     misc: {
       analytics: ["Mixpanel"],

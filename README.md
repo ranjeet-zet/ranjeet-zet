@@ -1,6 +1,5 @@
 <h1 align="center">नमस्ते 🙏</h1>
 <h1 align="center">My name is Ranjeet Kumar ❤️</h1>
-<img align="center" alt="Coding" width="100%" src="https://github.com/ranjeet-zet/ranjeet-zet.github.io/blob/main/image/JAVA2.png">
 
 ## 🚀 Software Engineer | React Native · Next.js · Spring Boot | Fintech & Full Stack
 
